@@ -1,0 +1,14 @@
+<Page loaded="pageLoaded" navigatingTo="OnNavigatingTo" navigatedTo="OnNavigatedTo" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Action Items">
+	<NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onGoHomeTap" />
+	>
+		<ActionItem tap="onShare" ios.systemIcon="9" ios.position="left" android.systemIcon="ic_menu_share" android.position="actionBar"></ActionItem>
+		<ActionItem tap="onDelete" ios.systemIcon="16" ios.position="right" text="delete" android.position="popup"></ActionItem>
+	</ActionBar>
+
+	<StackLayout class="home-panel">
+        <Label id="myLabel" />"
+		<Button text="Go Home" tap="onGoHomeTap" />
+	</StackLayout>
+</Page>

@@ -1,0 +1,6 @@
+<Page shownModally="onShownModally" loaded="onLoaded" unloaded="onUnloaded" backgroundColor="cyan">
+    <StackLayout margin="10">
+        <TextField id="mySetting" hint="Enter a setting"/>
+        <Button text="Save Me!" tap="onSaveSettingsTap" />
+    </StackLayout> 
+</Page>

@@ -1,0 +1,14 @@
+<Page loaded="pageLoaded" navigatingFrom="OnNavigatingFrom" navigatedFrom="OnNavigatedFrom" unloaded="OnUnloaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Home">
+		<ActionItem tap="onSettingsTap" ios.systemIcon="16" ios.position="right" android.systemIcon="ic_menu_preferences" android.position="actionBar"></ActionItem>
+	</ActionBar>
+
+	<ScrollView>
+		<StackLayout class="home-panel">
+			<TextField id="myTextField" hint="Enter a message"/>
+			<Button text = "What About Me?" tap="onAboutTap" />
+			<TextField id="myAnimationTextField" text="explode" hint="Enter an animation" />
+		</StackLayout>
+	</ScrollView>
+</Page>
